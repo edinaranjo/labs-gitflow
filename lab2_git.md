@@ -172,13 +172,12 @@ def filtrar_registros(df: pd.DataFrame, cantidad: int, posicion: str):
         return df.tail(cantidad)
 
     raise ValueError("La posición seleccionada no es válida.")
-
 ```
 
 
 # Parte 3: Crear la aplicación principal en Streamlit
 
-```{python, eval=FALSE,python.reticulate = FALSE}
+```python
 
 import streamlit as st
 import plotly.express as px
@@ -481,8 +480,6 @@ if len(columnas_numericas) >= 2:
 
 else:
     st.warning("Se requieren al menos dos columnas numéricas para el gráfico de dispersión.")
-
-
 ```
 
 
