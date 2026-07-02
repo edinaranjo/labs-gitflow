@@ -497,9 +497,18 @@ a. Crear el archivo .gitignore
    .DS_Store
 ```
 
-\sectionline
+---
 
-b. Relizar el staging y commit
+b. Ejecutar la aplicación
+
+```{bash, eval=FALSE}
+
+    streamlit run app.py
+```
+
+---
+
+c. Relizar el staging y commit
 
 ```{bash, eval=FALSE}
 
@@ -507,16 +516,6 @@ b. Relizar el staging y commit
     git add .
     git commit -m "Crear aplicacion Streamlit con carga CSV y graficas"
 ```
-
-\sectionline
-
-c. Ejecutar la aplicación
-
-```{bash, eval=FALSE}
-
-    streamlit run app.py
-```
-
 
 
 # Parte 5: Crear rama para nueva funcionalidad
@@ -530,10 +529,11 @@ a. Crear la rama
 
     git checkout -b feature/tabla-datos
 ```
+---
 
 b. Editar app.py y agregar la nueva funcionalidad al final
 
-```{python, eval=FALSE,python.reticulate = FALSE}
+```python
 
 # ============================================================
 # Visualización tabular
@@ -564,8 +564,17 @@ except ValueError as error:
     st.error(str(error))
 
 ```
+---
 
-c. Commit de la nueva funcionalidad
+c. Ejecutar la aplicación
+
+```{bash, eval=FALSE}
+
+    streamlit run app.py
+```
+---
+
+d. Commit de la nueva funcionalidad
 
 ```{bash, eval=FALSE}
 
@@ -574,6 +583,8 @@ c. Commit de la nueva funcionalidad
    git commit -m "Agregar visualizacion tabular con filtro de registros"
 ```
 
+---
+
 d. Merge hacia la rama principal
 
 ```{bash, eval=FALSE}
@@ -581,6 +592,8 @@ d. Merge hacia la rama principal
   git checkout master
   git merge feature/tabla-datos
 ```
+
+---
 
 e. Verificar 
 
