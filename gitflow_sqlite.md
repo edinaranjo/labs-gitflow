@@ -267,15 +267,13 @@ python3 app.py
 
 1.0.0
 
-````
-
 Confirmar cambios:
 
 ```bash
 git add VERSION README.md
 git commit -m "Preparar release 1.0.0"
 ```
-````
+
 
 Finalizar release:
 
