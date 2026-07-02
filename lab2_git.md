@@ -27,6 +27,7 @@ a. Crear el directorio del proyecto
 
 Estructura esperada:
 
+```text
 laboratorio-streamlit-git/
 ├── app.py
 ├── src/
@@ -36,7 +37,7 @@ laboratorio-streamlit-git/
 ├── data/
 ├── requirements.txt
 └── README.md
-
+```
 ---
 
 b. Crear el entorno virtual
