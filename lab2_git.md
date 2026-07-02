@@ -27,11 +27,17 @@ a. Crear el directorio del proyecto
 
 Estructura esperada:
 
-```{r echo=FALSE, fig.align='center', out.width="5cm", out.height="3cm"}
-knitr::include_graphics("imagenes/estructura2.png")
-```
+laboratorio-streamlit-git/
+├── app.py
+├── src/
+│   └── data_utils.py
+├── tests/
+│   └── test_data_utils.py
+├── data/
+├── requirements.txt
+└── README.md
 
-\sectionline
+---
 
 b. Crear el entorno virtual
 
@@ -42,7 +48,7 @@ b. Crear el entorno virtual
 
 ```
 
-\sectionline
+---
 
 c. Verificar la versión de Python
 
@@ -52,7 +58,7 @@ c. Verificar la versión de Python
 
 ```
 
-\sectionline
+---
 
 d. Editar el archivo requirements.txt
 
