@@ -34,7 +34,7 @@ laboratorio-streamlit-git/
 │   └── data_utils.py
 ├── tests/
 │   └── test_data_utils.py
-├── data/
+├── data/penguins.csv
 ├── requirements.txt
 └── README.md
 ```
