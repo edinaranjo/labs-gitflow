@@ -87,8 +87,10 @@ A lo largo de los diferentes laboratorios pondrás en práctica:
 
 ```text
 Repositorio
-├── gitflow_sqlite
-├── gitflow_mlops
+├── lab1_gitflow
+├── lab2_gitflow
+├── lab_git_streamlit
+├── Guia_de_comandos_gitflow.png
 └── README.md
 ```
 
