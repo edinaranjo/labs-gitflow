@@ -1,4 +1,4 @@
-# Laboratorio GitFlow + MLOps: Predicción de precios de viviendas con regresión lineal
+# Laboratorio GitFlow + MLOps: Predicción de precios de viviendas con regresión lineal.
 
 ## 1. Escenario
 
