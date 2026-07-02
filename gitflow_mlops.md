@@ -730,6 +730,3 @@ Este laboratorio representa un flujo MLOps básico porque combina:
 * Release para estabilizar una versión.
 * Hotfix para corregir fallos críticos en producción.
 
-
-* FastAPI para exponer el modelo como servicio.
-* Monitoreo de métricas del modelo en producción.
