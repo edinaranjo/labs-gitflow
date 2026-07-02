@@ -1,4 +1,4 @@
-# Laboratorio GitFlow: despliegue y actualización de una base de datos SQLite3
+# Laboratorio GitFlow: Despliegue y actualización de una base de datos SQLite3
 
 ## Escenario
 
