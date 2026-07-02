@@ -81,10 +81,8 @@ A lo largo de los diferentes laboratorios pondrás en práctica:
 
 ```text
 Repositorio
-│
 ├── gitflow_sqlite
 ├── gitflow_mlops
-│
 └── README.md
 ```
 
