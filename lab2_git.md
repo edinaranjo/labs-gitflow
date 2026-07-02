@@ -1,4 +1,6 @@
 
+# Git aplicado a una aplicación Streamlit para análisis de datos
+
 ## Objetivo
 
 Desarrollar una aplicación en Streamlit que permita cargar archivos .csv, visualizar gráficos de análisis de datos y trabajar el flujo de control de versiones con Git, incluyendo:
@@ -9,9 +11,8 @@ Desarrollar una aplicación en Streamlit que permita cargar archivos .csv, visua
 - Simulación y resolución de conflictos.
 - Validación de código con pytest.
 
-# Parte 1: Iniciar la máquina virtual.
 
-# Parte 2: Preparación del entorno de trabajo
+# Parte 1: Preparación del entorno de trabajo
 
 a. Crear el directorio del proyecto
 
