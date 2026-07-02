@@ -99,7 +99,7 @@ e. Instalar dependencias
 ```
 
 
-```{python, eval=FALSE,python.reticulate = FALSE}
+```python
 
 import pandas as pd
 
