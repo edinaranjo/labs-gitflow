@@ -505,6 +505,7 @@ b. Ejecutar la aplicación
 
     streamlit run app.py
 ```
+***Nota:*** Utilizar el archivo penguins.csv para probar la aplicación.
 
 ---
 
