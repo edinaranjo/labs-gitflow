@@ -91,7 +91,7 @@ Contenido:
 __pycache__/
 *.pyc
 devices.db
-venv/
+devops/
 .env
 ```
 
