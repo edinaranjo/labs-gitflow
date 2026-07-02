@@ -173,7 +173,6 @@ def filtrar_registros(df: pd.DataFrame, cantidad: int, posicion: str):
 
     raise ValueError("La posición seleccionada no es válida.")
 
-
 ```
 
 
