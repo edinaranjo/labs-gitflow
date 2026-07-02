@@ -1,4 +1,10 @@
+
+
 # 🚀 Laboratorios de GitFlow
+
+<p align="center">
+Aprende GitFlow mediante laboratorios prácticos orientados al desarrollo profesional con Git.
+</p>
 
 <p align="center">
 
