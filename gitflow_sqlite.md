@@ -260,6 +260,7 @@ Aplicación básica en Python para gestionar dispositivos usando SQLite3.
 
 ```bash
 python3 app.py
+```
 ````
 
 ## Versión
@@ -273,6 +274,7 @@ Confirmar cambios:
 ```bash
 git add VERSION README.md
 git commit -m "Preparar release 1.0.0"
+```
 ````
 
 Finalizar release:
