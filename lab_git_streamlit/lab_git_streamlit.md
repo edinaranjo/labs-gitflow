@@ -139,7 +139,10 @@ def cargar_csv(archivo):
         except pd.errors.ParserError:
             raise ValueError("El archivo CSV tiene un formato inválido.")
 
-    raise ValueError("No se pudo leer el archivo. Verifique que sea un CSV válido y que su codificación sea compatible.")
+    raise ValueError(
+    "No se pudo leer el archivo. Verifique que sea un CSV válido "
+    "y que su codificación sea compatible."
+   ) 
 
 def obtener_columnas_numericas(df: pd.DataFrame):
     """
