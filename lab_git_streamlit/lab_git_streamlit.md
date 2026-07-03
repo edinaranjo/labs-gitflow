@@ -72,7 +72,7 @@ d. Editar el archivo requirements.txt
 
 ```
 
-\sectionline
+---
 
 e. Instalar dependencias
 
