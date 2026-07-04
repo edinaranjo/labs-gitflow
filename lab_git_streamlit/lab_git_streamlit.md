@@ -563,8 +563,9 @@ try:
 
 except ValueError as error:
     st.error(str(error))
-
 ```
+
+
 ---
 
 c. Ejecutar la aplicación
