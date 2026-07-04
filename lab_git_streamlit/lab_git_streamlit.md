@@ -1,5 +1,5 @@
 
-# Git aplicado a una aplicación Streamlit para análisis de datos.
+# Git aplicado a una aplicación Streamlit para análisis de datos. 
 
 ## Objetivo
 
