@@ -731,7 +731,7 @@ a. Crear archivo
     nano tests/test_data_utils.py
 ```
 
-```{python, eval=FALSE,python.reticulate = FALSE}
+```python
 
 import pandas as pd
 import pytest
