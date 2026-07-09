@@ -45,17 +45,6 @@ hotfix/
 
 # 3. Estructura inicial
 
-```bash
-mkdir data models tests src
-touch README.md requirements.txt .gitignore
-```
-
-Copiar el dataset:
-
-```bash
-cp ~/Descargas/Housing.csv data/Housing.csv
-```
-
 Estructura:
 
 ```text
@@ -70,6 +59,16 @@ housing-gitflow-ml/
 └── .gitignore
 ```
 
+```bash
+mkdir data models tests src
+touch README.md requirements.txt .gitignore
+```
+
+Copiar el dataset:
+
+```bash
+cp ~/Descargas/Housing.csv data/Housing.csv
+```
 ---
 
 # 4. Dependencias
