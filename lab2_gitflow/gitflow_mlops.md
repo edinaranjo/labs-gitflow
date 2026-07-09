@@ -105,7 +105,7 @@ En este laboratorio sí se versiona `Housing.csv` por fines académicos, pero en
 
 ---
 
-# 5. Código base en master
+# 5. Código base en rama develop
 
 Crear archivo:
 
@@ -203,25 +203,7 @@ git commit -m "Crear modelo base de regresion lineal para precios de viviendas"
 
 ---
 
-# 6. Rama develop
-
-Cambiar a `develop`:
-
-```bash
-git checkout develop
-```
-
-Si no existe:
-
-```bash
-git checkout -b develop
-```
-
-La rama `develop` será la rama de integración. Aquí llegarán las funcionalidades antes de preparar una versión estable.
-
----
-
-# 7. Feature 1: validación del dataset
+# 6. Feature 1: validación del dataset
 
 Crear rama:
 
@@ -302,7 +284,7 @@ Esto fusiona `feature/data-validation` hacia `develop`.
 
 ---
 
-# 8. Feature 2: script de predicción
+# 7. Feature 2: script de predicción
 
 Crear nueva rama:
 
@@ -383,7 +365,7 @@ git flow feature finish predict-script
 
 ---
 
-# 9. Feature 3: pruebas automatizadas
+# 8. Feature 3: pruebas automatizadas
 
 Crear rama:
 
@@ -444,7 +426,7 @@ git flow feature finish tests
 
 ---
 
-# 10. Release 1.0.0
+# 9. Release 1.0.0
 
 Crear release:
 
@@ -537,7 +519,7 @@ git log --oneline --graph --all
 
 ---
 
-# 11. Hotfix 1.0.1: corrección crítica
+# 10. Hotfix 1.0.1: corrección crítica
 
 Supongamos que en producción se detecta un problema: el script `predict.py` falla si el orden o número de columnas no coincide exactamente con el modelo entrenado.
 
@@ -652,9 +634,9 @@ y crea el tag:
 
 ---
 
-# 12. Resumen de ramas usadas
+# 11. Resumen de ramas usadas
 
-## master
+## master/main
 
 Contiene versiones estables listas para producción:
 
