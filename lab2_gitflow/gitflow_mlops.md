@@ -21,8 +21,23 @@ Una empresa desea construir un modelo de regresión lineal para predecir precios
 El equipo usará GitFlow para organizar el desarrollo del modelo.
 
 ---
+# 2. Estructura inicial
 
-# 2. Crear el proyecto
+Estructura:
+
+```text
+housing-gitflow-ml/
+├── data/
+│   └── Housing.csv
+├── models/
+├── src/
+├── tests/
+├── README.md
+├── requirements.txt
+└── .gitignore
+```
+
+# 3. Crear el proyecto
 
 ```bash
 mkdir housing-gitflow-ml
@@ -40,24 +55,7 @@ feature/
 release/
 hotfix/
 ```
-
 ---
-
-# 3. Estructura inicial
-
-Estructura:
-
-```text
-housing-gitflow-ml/
-├── data/
-│   └── Housing.csv
-├── models/
-├── src/
-├── tests/
-├── README.md
-├── requirements.txt
-└── .gitignore
-```
 
 ```bash
 mkdir data models tests src
