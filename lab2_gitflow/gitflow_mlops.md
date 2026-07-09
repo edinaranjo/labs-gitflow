@@ -23,8 +23,6 @@ El equipo usará GitFlow para organizar el desarrollo del modelo.
 ---
 # 2. Estructura inicial
 
-Estructura:
-
 ```text
 housing-gitflow-ml/
 ├── data/
